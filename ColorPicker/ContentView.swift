@@ -22,8 +22,13 @@ struct ContentView: View {
                 .foregroundColor(Color(red: red, green: green, blue: blue, opacity: 1.0))
                 .font(.largeTitle)
                 .padding()
-            Slider(value: $red, in: 0...1, step: 0.01)
-                .padding()
+            HStack{
+                Circle()
+                    .frame(width: 20, height: 20, alignment: .center)
+                Slider(value: $red, in: 0...1, step: 0.01)
+                    .padding()
+            }
+
         }
     }
 }
