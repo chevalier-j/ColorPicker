@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var red = 0.5
-    @State var green = 0.5
+    @State var red = 0.75
+    @State var green = 0.25
     @State var blue = 0.5
     
     var body: some View {
