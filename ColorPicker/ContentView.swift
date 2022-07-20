@@ -23,12 +23,10 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .padding()
             HStack{
-                Circle()
-                    .frame(width: 20, height: 20, alignment: .center)
+                ColorSwatch()
                 Slider(value: $red, in: 0...1, step: 0.01)
-                    .padding()
             }
-
+            .padding()
         }
     }
 }
