@@ -12,6 +12,7 @@
 		17A106882887C744009FDBE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A106872887C744009FDBE0 /* Assets.xcassets */; };
 		17A1068B2887C744009FDBE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17A1068A2887C744009FDBE0 /* Preview Assets.xcassets */; };
 		17A106942887CB3D009FDBE0 /* ColorSwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A106932887CB3D009FDBE0 /* ColorSwatch.swift */; };
+		17A106962887CD3A009FDBE0 /* ColorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A106952887CD3A009FDBE0 /* ColorSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		17A106872887C744009FDBE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17A1068A2887C744009FDBE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		17A106932887CB3D009FDBE0 /* ColorSwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSwatch.swift; sourceTree = "<group>"; };
+		17A106952887CD3A009FDBE0 /* ColorSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 		17A106772887C742009FDBE0 = {
 			isa = PBXGroup;
 			children = (
+				17A106952887CD3A009FDBE0 /* ColorSliderView.swift */,
 				17A106932887CB3D009FDBE0 /* ColorSwatch.swift */,
 				17A106822887C742009FDBE0 /* ColorPicker */,
 				17A106812887C742009FDBE0 /* Products */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17A106862887C742009FDBE0 /* ContentView.swift in Sources */,
+				17A106962887CD3A009FDBE0 /* ColorSliderView.swift in Sources */,
 				17A106842887C742009FDBE0 /* ColorPickerApp.swift in Sources */,
 				17A106942887CB3D009FDBE0 /* ColorSwatch.swift in Sources */,
 			);
