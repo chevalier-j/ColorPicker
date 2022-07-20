@@ -9,20 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var red = 1.0
-    var green = 0.0
-    var blue = 0.0
+    @State var red = 0.5
+    @State var green = 0.5
+    @State var blue = 0.5
     
     var body: some View {
         VStack {
-            Text("Colour Slider v0.1")
+            Text("Colour Picker v0.1")
+                .foregroundColor(Color(red: red, green: green, blue: blue, opacity: 1.0))
                 .font(.largeTitle)
+                .fontWeight(.black)
                 .padding()
             Image(systemName: "slider.horizontal.3")
                 .foregroundColor(Color(red: red, green: green, blue: blue, opacity: 1.0))
                 .font(.largeTitle)
                 .padding()
             ColorSliderView(colorValue: $red, color: .red)
+            ColorSliderView(colorValue: $green, color: .green)
+            ColorSliderView(colorValue: $blue, color: .blue)
         }
     }
 }
